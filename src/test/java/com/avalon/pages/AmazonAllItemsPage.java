@@ -20,7 +20,4 @@ public class AmazonAllItemsPage extends BasePage {
     @FindBy(xpath = "(//div[@class='a-section aok-relative s-image-fixed-height']/img)[4]")
     public WebElement fourthSchoolBag;
 
-    @FindBy(xpath = "//img[@class='s-image']")
-    List<WebElement> listOfItems;
-
 }
